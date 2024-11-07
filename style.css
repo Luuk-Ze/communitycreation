@@ -1,0 +1,112 @@
+main {
+    background-color: #FEFFE6;
+}
+
+p {
+    font-family: berlin sans FB;
+    font-size: larger;
+}
+
+h1 {
+    font-family: Showcard Gothic;
+    color: #F97F09;
+    font-size: 5.3em;
+    padding-bottom: 0.6em;
+}
+
+h2 {
+    font-family:Showcard Gothic ;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul a {
+    display: flex;
+    justify-content: space-between 1.3em;
+}
+
+header img {
+    height: 100%    ;
+    width: 100%;
+}
+
+main img {
+    height: 100%;
+    width: 100%;
+}
+
+ul img {
+    height: 100%;
+    width: 100%
+}
+
+main img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+article img{
+    max-height: 30%;
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+section img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+nav img {
+    height: 100%;
+    width: 100%;
+    padding-right: 3em;
+}
+
+a:active {
+    background-image: url(img/);
+}
+
+footer, nav {
+    background-color: #22BBBB;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main ul {
+    list-style-type:square;
+
+}
+
+article li {
+    padding-top: 1em;
+}
+
+article img {
+    max-height: 100%;
+    max-width: 100%;
+}
